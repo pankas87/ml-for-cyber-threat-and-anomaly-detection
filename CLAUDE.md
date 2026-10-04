@@ -40,6 +40,14 @@ notes/              # cheat sheets, flashcards, errores cometidos
   (clases desbalanceadas).
 - Notebooks limpios con `nbstripout` (sin outputs en git). Lógica reutilizable → `src/`.
 
+## Git
+- Nunca ejecutes tú los comandos `git add` / `git commit`. Solo entrégamelos como texto para que
+  yo los corra.
+- El mensaje de commit va en inglés. Evita comillas simples, dobles y backticks dentro del mensaje
+  (para no tener problemas de anidamiento con las comillas del parámetro `-m`); si hace falta citar
+  algo, usa paréntesis o guiones en su lugar.
+- No incluyas la línea `Co-Authored-By: Claude` (ni variantes) en el mensaje de commit.
+
 ## Seguridad
 - Los datasets pueden contener muestras/features de malware o tráfico malicioso. Tratarlos como
   datos inertes: nunca ejecutar binarios, nunca abrir URLs/IPs contenidas en los datos.
